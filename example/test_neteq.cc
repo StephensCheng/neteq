@@ -18,7 +18,7 @@
 #include "neteq/delay_manager.h"
 #include "neteq/packet_buffer.h"
 #include "neteq/decision_logic.h"
-//#include "neteq/optional.hpp"
+#include "neteq/optional.h"
 #include "neteq/rtp_header.h"
 #include "neteq/crude_neteq.h"
 #include "neteq/audio_decoder_pcm.h"

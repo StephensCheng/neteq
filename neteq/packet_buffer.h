@@ -16,7 +16,7 @@
 #include "neteq/packet.h"
 #include "neteq/module_common_types_public.h"
 #include "rtc_base/constructormagic.h"
-#include "neteq/optional.hpp"
+#include "neteq/optional.h"
 
 namespace webrtc {
 

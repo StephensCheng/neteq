@@ -1290,24 +1290,24 @@ public:
   TL_OPTIONAL_11_CONSTEXPR T &value() & {
     if (has_value())
       return this->m_value;
-   //  throw bad_optional_access();
+     throw bad_optional_access();
   }
   TL_OPTIONAL_11_CONSTEXPR const T &value() const & {
     if (has_value())
       return this->m_value;
-   //  throw bad_optional_access();
+   throw bad_optional_access();
   }
   TL_OPTIONAL_11_CONSTEXPR T &&value() && {
     if (has_value())
       return std::move(this->m_value);
-   //  throw bad_optional_access();
+   throw bad_optional_access();
   }
 
 #ifndef TL_OPTIONAL_NO_CONSTRR
   TL_OPTIONAL_11_CONSTEXPR const T &&value() const && {
     if (has_value())
       return std::move(this->m_value);
-   //  throw bad_optional_access();
+   throw bad_optional_access();
   }
 #endif
 
@@ -2013,12 +2013,12 @@ public:
   TL_OPTIONAL_11_CONSTEXPR T &value() {
     if (has_value())
       return *m_value;
-   //  throw bad_optional_access();
+   throw bad_optional_access();
   }
   TL_OPTIONAL_11_CONSTEXPR const T &value() const {
     if (has_value())
       return *m_value;
-   //  throw bad_optional_access();
+    throw bad_optional_access();
   }
 
   /// Returns the stored value if there is one, otherwise returns `u`

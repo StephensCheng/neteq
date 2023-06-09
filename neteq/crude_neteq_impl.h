@@ -6,14 +6,13 @@
 #include <string>
 #include <vector>
 
-#include "rtc_base/constructormagic.h"
 #include "neteq/defines.h"
 #include "neteq/tick_timer.h"
 #include "neteq/audio_multi_vector.h"
 #include "neteq/crude_neteq.h"
 #include "neteq/random_vector.h"
 #include "neteq/audio_frame.h"
-#include "neteq/optional.hpp"
+#include "neteq/optional.h"
 #include "neteq/packet.h"
 #include "neteq/audio_decoder.h"
 #include "rtc_base/constructormagic.h"
