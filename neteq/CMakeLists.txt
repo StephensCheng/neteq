@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 11)
 # set(CMAKE_INSTALL_PREFIX "/home/docker/webrtc_neteq/")
 
 # Compiler flags
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DNDEBUG -fno-exceptions -fvisibility=hidden -g")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DNDEBUG -fno-exceptions -fvisibility=hidden -g")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DNDEBUG  -fvisibility=hidden -g")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DNDEBUG  -fvisibility=hidden -g")
 
 # Include directories
 include_directories(
